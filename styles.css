@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
 
 body{
-
-    font-family: 'Urbanist', sans-serif;
-    overflow-x: hidden;
+  font-family: Georgia, serif;;
+  overflow-x: hidden;
+  background-color: #16154E;
+  padding:0px;
+  margin: 0%;
 }
-
+.bgimg{
+  margin: 0;
+  width: 224.34px;
+   height: 680.60px; 
+   position: top left;
+    opacity: 0.60;
+  }
 a{
 
     text-decoration: none;
@@ -20,7 +28,7 @@ a:hover{
 header{
     width: 100vw;
     height: 100px;
-    background-color: #fff;
+    
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 25%);
     display: flex;
     align-items: center;
@@ -29,7 +37,7 @@ header{
 header .container-fluid{
 
     width: 100%;
-    padding: 0 60px;
+    padding: 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,8 +53,8 @@ header .container-fluid{
 
 header .navb-logo img{
 
-    width: 110px;
-    height: 90px;
+    width: 290px;
+    height: 100px;
 }
 
 header .navb-items{
@@ -63,7 +71,7 @@ header .item{
     margin-inline: 10%;
     font-size: 18px;
     letter-spacing: 3px;
-    color: #102447;
+    color: #d3ddee;
     padding: 3px 0;
     transition: all .1s ease;
     border-bottom: 0px solid #64d6f4;
@@ -79,7 +87,7 @@ header .item:hover{
 
 header .item-button a{
 
-    background-color: #274d8a;
+    background-color: #0a2043;
     width: 150px;
     height: 50px;
     display: flex;
@@ -267,7 +275,6 @@ header .mobile-toggler{
         margin: auto;
     }
 }
-
 .form-container{
   position:fixed;
   max-width: 320px;
@@ -276,7 +283,7 @@ header .mobile-toggler{
   left:50%;
   transform:translate(-50%,-50%) scale(1.2);
   z-index:101;
-  background: #F0F8FF;
+  background: #fff;
   padding:25px;
   border-radius: 12px;
   box-shadow:rgba(0, 0, 0, 0.1);
@@ -335,7 +342,7 @@ header .mobile-toggler{
   border-bottom: 1.5px solid #aaaaaa;
 }
 .input_box input:focus{
-  border-color: #083389;
+  border-color: #7d2ae8;
 }
 .input_box i{
   position:absolute;
@@ -350,7 +357,7 @@ header .mobile-toggler{
 }
 .input_box input:focus ~i.email,
 .input_box input:focus ~i.password{
-  border-color: #191970;
+  border-color: #7d2ae8;
 }
 .input_box i.pw_hide{
   /* right:0; */
@@ -365,7 +372,7 @@ header .mobile-toggler{
   justify-content: space-between;
 }
 .form-container a{
-  color:#191970;
+  color:#7d2ae8;
   font-size: 12px;
 }
 .form-container a:hover{
@@ -378,7 +385,7 @@ header .mobile-toggler{
   font-size: 12px;
 }
 .chcekbox input{
-  accent-color:#7d2ae8
+  accent-color:#7d2ae8;
 }
 .checkbox label{
   font-size: 12px;
@@ -387,9 +394,8 @@ header .mobile-toggler{
   color:#0b0217;
 }
 .form-container .button{
-   background: #0047AB;
+   background: #0b2b5e;
    margin-top: 30px;
-   font-weight: bold;
    width:100%;
    padding: 10px 0;
    border-radius: 10px;
@@ -398,7 +404,7 @@ header .mobile-toggler{
    color: #fff;
 }
 .form-container .googleBtn{
-  background: linear-gradient(to right, #04309e 5%, #4e6bd4 60%, #04349a 100%);
+  background: linear-gradient(to right, #2b8def 0%, #4545d0 50%, #183288 100%);
    /* margin-top: 5px; */
    display: flex;
    align-items: center;
@@ -419,4 +425,45 @@ header .mobile-toggler{
 
 .signup_form{
   display:none;
+}
+#logoc {
+  position: relative;
+  left: 1000px;
+  top: -690px;
+}
+#logoc img{
+  width: 500px;
+  height: auto; 
+}
+.letter p {
+  color: #ffffff;
+  text-align: left;
+  font: 1500 "Inter", sans-serif; 
+  position: relative;
+  left: 96.05px;
+  top: -970.67px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: 0.5; 
+  font-size: 200%;
+}
+.p_c{
+  color: #5d90e1;
+}
+#bg2 {
+  left: 240.05px;
+  top: -1070.67px;
+  opacity: 0.30000001192092896;
+  width: 234.71px;
+  height: 237.12px;
+  position: relative;
+  overflow: hidden;
+}
+#bg3 {
+  opacity: 0.7300000190734863;
+  width: 1547.88px;
+  height: 772.13px;
+  position: relative;
+  overflow: hidden;
 }
