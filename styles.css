@@ -306,7 +306,15 @@ li {
   position: relative;
   top: -2000px;
 }
-
+.section-title {
+  color: white;
+  font-weight: bold;
+  word-spacing: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.h {
+  color: #5d90e1; /* Choose your desired color */
+}
 .menu-item {
   cursor: pointer;
 }
@@ -346,7 +354,7 @@ li {
   font-size: 20px;
   border-radius: 25px;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
 }
 .card-button1 {
   margin-top: 80px;
@@ -357,7 +365,7 @@ li {
   font-size: 22px;
   border-radius: 25px;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
 }
 .card-button2 {
   margin-top: 80px;
@@ -368,7 +376,7 @@ li {
   font-size: 25px;
   border-radius: 25px;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
 }
 .card-button1:hover, .card-button2:hover, .card-button:hover {
   background: #09002f; /* Change the background color on hover */
@@ -378,4 +386,3 @@ li {
   box-shadow: 0px 0px 100px 0px rgb(11, 20, 71);
   transition: .8s ease;
 }
-
