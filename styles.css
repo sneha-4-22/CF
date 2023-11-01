@@ -2,11 +2,11 @@
 
 body {
   font-family: Georgia, serif;
-  ;
   overflow-x: hidden;
   background-color: #16154E;
   padding: 0px;
   margin: 0%;
+  scroll-behavior: smooth;
 }
 
 .bgimg {
@@ -59,42 +59,6 @@ ul {
 li {
   position: relative;
 }
-
-li .submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.menu-item:hover .submenu {
-  display: block;
-}
-
-.cards {
-  display: flex;
-  flex-direction: row; 
-  align-items: center;    
-  justify-content: center; 
-}
-
-.card {
-  display: none;
-  width: 300px;
-  height: 400px;
-  background: linear-gradient(
-    135deg,
-    rgba(19, 7, 46, 1) 0%,
-    rgba(63, 33, 130, 1) 100%
-  );
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10px; 
-  text-align: center;
-}
-
 .menu-item:hover .card {
   display: block;
 }
@@ -336,5 +300,82 @@ li .submenu {
   position: relative;
   overflow: hidden;
 }
+#solutions {
+  padding: 100px 0; /* Add some padding for better visual separation */
+  text-align: center;
+  position: relative;
+  top: -2000px;
+}
 
+.menu-item {
+  cursor: pointer;
+}
+ .cards {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;    
+  justify-content: center; 
+}
+.card {
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 208, 235, 0.722) 0%,
+    rgb(253, 253, 255) 100%
+  );
+  border: 3px solid #ca9bf0;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 4px rgba(236, 229, 238, 0.1);
+  margin: 30px; 
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+.card:hover {
+  box-shadow: 0 0 20px 5px rgba(201, 184, 244, 0.8); /* Add glow effect on hover */
+}
+.card-button {
+  margin-top: 23px;
+  padding: 10px;
+  display: inline-block;
+  background: #08064d;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-button1 {
+  margin-top: 80px;
+  padding: 10px;
+  display: inline-block;
+  background: #08064d;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-button2 {
+  margin-top: 80px;
+  padding: 20px;
+  display: inline-block;
+  background: #08064d;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-button1:hover, .card-button2:hover, .card-button:hover {
+  background: #09002f; /* Change the background color on hover */
+  color: white;
+  -webkit-box-shadow: 0px 0px 100px 0px rgb(36, 63, 181);
+  -moz-box-shadow: 0px 0px 100px 0px rgb(45, 58, 205);
+  box-shadow: 0px 0px 100px 0px rgb(11, 20, 71);
+  transition: .8s ease;
+}
 

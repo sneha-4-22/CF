@@ -42,3 +42,8 @@ loginBtn.addEventListener("click", (e) => {
   document.getElementById("signupForm").style.display = "none";
   formContainer.classList.remove("active");
 });
+document.querySelector('.menu-item a').addEventListener('click', (event) => {
+  event.preventDefault();
+  const solutionsSection = document.querySelector('#solutions');
+  solutionsSection.scrollIntoView({ behavior: 'smooth' });
+});
