@@ -386,3 +386,38 @@ li {
   box-shadow: 0px 0px 100px 0px rgb(11, 20, 71);
   transition: .8s ease;
 }
+/* #solutions {
+  padding: 100px 0; 
+  text-align: center;
+  position: relative;
+  top: -2000px;
+} */
+#gs{
+  padding: 100px 0; 
+  text-align: center;
+  position: relative;
+  top: -3300px;
+  left: -590px;
+}
+.gsc {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin-top to control the vertical position */
+}
+
+.gsb {
+  display: inline-block;
+  background: #6495ED;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.gsb:hover {
+  background: #4a90e2;
+  color: white;
+  -webkit-box-shadow: 0px 0px 100px 0px rgb(30, 38, 70);
+  -moz-box-shadow: 0px 0px 100px 0px rgb(3, 10, 84);
+  box-shadow: 0px 0px 100px 0px rgb(140, 146, 180);
+  transition: .8s ease;
+}
