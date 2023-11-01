@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
 
 body {
-  font-family: Georgia, serif;
+  font-family: OktaNeue,sans-serif;
   overflow-x: hidden;
   background-color: #16154E;
   padding: 0px;
@@ -310,7 +310,7 @@ li {
   color: white;
   font-weight: bold;
   word-spacing: 10px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:OktaNeue,sans-serif;
 }
 .h {
   color: #5d90e1; /* Choose your desired color */
