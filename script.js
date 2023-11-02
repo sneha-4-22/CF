@@ -29,7 +29,6 @@ pwShowHide.forEach((icon) => {
 
 signupBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  // Toggle between the login and sign-up forms
   document.getElementById("loginForm").style.display = "none";
   document.getElementById("signupForm").style.display = "block";
   formContainer.classList.add("active");
@@ -37,7 +36,6 @@ signupBtn.addEventListener("click", (e) => {
 
 loginBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  // Toggle between the login and sign-up forms
   document.getElementById("loginForm").style.display = "block";
   document.getElementById("signupForm").style.display = "none";
   formContainer.classList.remove("active");
