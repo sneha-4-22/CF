@@ -415,4 +415,89 @@ li {
   -moz-box-shadow: 0px 0px 100px 0px rgb(3, 10, 84);
   box-shadow: 0px 0px 100px 0px rgb(140, 146, 180);
   transition: .8s ease;
+}#resources {
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  top: -2300px;
+}
+.resource-title {
+  color: white;
+  font-weight: bold;
+  word-spacing: 10px;
+  font-family:OktaNeue,sans-serif;
+}
+.h {
+  color: #5d90e1; 
+}
+.res-item {
+  cursor: pointer;
+}
+ .res {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;    
+  justify-content: center; 
+}
+.card {
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 208, 235, 0.722) 0%,
+    rgb(253, 253, 255) 100%
+  );
+  border: 3px solid #ca9bf0;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 4px rgba(236, 229, 238, 0.1);
+  margin: 30px; 
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+.card:hover {
+  box-shadow: 0 0 20px 5px rgba(201, 184, 244, 0.8); /* Add glow effect on hover */
+}
+.blog {
+  margin-top: 70px;
+  padding: 20px 65px 20px 65px;
+  display: inline-block;
+  background: #08064d;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: OktaNeue,sans-serif;
+}
+.case-study{
+  margin-top: 80px;
+  padding: 20px 60px 20px 60px;
+  display: inline-block;
+  background: #08064d;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: OktaNeue,sans-serif;
+}
+.media {
+  margin-top: 80px;
+  padding: 20px 65px 20px 65px;
+  display: inline-block;
+  background: #08064d;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: OktaNeue,sans-serif;
+}
+.blog:hover, .case-study:hover, .media:hover {
+  background: #09002f; /* Change the background color on hover */
+  color: white;
+  -webkit-box-shadow: 0px 0px 100px 0px rgb(36, 63, 181);
+  -moz-box-shadow: 0px 0px 100px 0px rgb(45, 58, 205);
+  box-shadow: 0px 0px 100px 0px rgb(11, 20, 71);
+  transition: .8s ease;
 }
