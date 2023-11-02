@@ -45,3 +45,8 @@ document.querySelector('.menu-item a').addEventListener('click', (event) => {
   const solutionsSection = document.querySelector('#solutions');
   solutionsSection.scrollIntoView({ behavior: 'smooth' });
 });
+document.querySelector('.r-item a').addEventListener('click', (event) => {
+  event.preventDefault();
+  const resource = document.querySelector('#resources');
+  resource.scrollIntoView({ behavior: 'smooth' });
+});
