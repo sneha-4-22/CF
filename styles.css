@@ -301,7 +301,7 @@ li {
   overflow: hidden;
 }
 #solutions {
-  padding: 100px 0; /* Add some padding for better visual separation */
+  padding: 100px 0;
   text-align: center;
   position: relative;
   top: -2000px;
@@ -313,7 +313,7 @@ li {
   font-family:OktaNeue,sans-serif;
 }
 .h {
-  color: #5d90e1; /* Choose your desired color */
+  color: #5d90e1; 
 }
 .menu-item {
   cursor: pointer;
@@ -354,7 +354,7 @@ li {
   font-size: 20px;
   border-radius: 25px;
   text-decoration: none;
-  font-family: cursive;
+  font-family: OktaNeue,sans-serif;
 }
 .card-button1 {
   margin-top: 80px;
@@ -365,7 +365,7 @@ li {
   font-size: 22px;
   border-radius: 25px;
   text-decoration: none;
-  font-family: cursive;
+  font-family: OktaNeue,sans-serif;
 }
 .card-button2 {
   margin-top: 80px;
@@ -376,7 +376,7 @@ li {
   font-size: 25px;
   border-radius: 25px;
   text-decoration: none;
-  font-family: cursive;
+  font-family: OktaNeue,sans-serif;
 }
 .card-button1:hover, .card-button2:hover, .card-button:hover {
   background: #09002f; /* Change the background color on hover */
@@ -386,12 +386,7 @@ li {
   box-shadow: 0px 0px 100px 0px rgb(11, 20, 71);
   transition: .8s ease;
 }
-/* #solutions {
-  padding: 100px 0; 
-  text-align: center;
-  position: relative;
-  top: -2000px;
-} */
+
 #gs{
   padding: 100px 0; 
   text-align: center;
@@ -420,4 +415,149 @@ li {
   -moz-box-shadow: 0px 0px 100px 0px rgb(3, 10, 84);
   box-shadow: 0px 0px 100px 0px rgb(140, 146, 180);
   transition: .8s ease;
+}
+@media (max-width: 768px) {
+  body {
+      font-size: 14px; 
+  }
+  nav {
+      padding: 5px; 
+  }
+  ul {
+      flex-direction: column; 
+      align-items: center; 
+  }
+  li {
+      margin: 5px; 
+  }
+  #logoc {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    top: -260px;
+  }
+  
+  #logoc img {
+    width: 500px;
+    height: auto;
+  }
+  
+  .submenu {
+      top: 0; 
+      left: 100%; 
+  }
+ 
+  .card-container {
+      width: 100%; 
+      margin-bottom: 10px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+  }
+  .card {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(
+      135deg,
+      rgba(198, 208, 235, 0.722) 0%,
+      rgb(253, 253, 255) 100%
+    );
+    border: 3px solid #ca9bf0;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 4px rgba(236, 229, 238, 0.1);
+    margin: 30px; 
+    text-align: center;
+    transition: box-shadow 0.3s;
+  }
+  .card:hover {
+    box-shadow: 0 0 20px 5px rgba(201, 184, 244, 0.8); /* Add glow effect on hover */
+  }
+  .card-button {
+    margin-top: 23px;
+    padding: 10px;
+    display: inline-block;
+    background: #08064d;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: OktaNeue,sans-serif;
+  }
+  .card-button1 {
+    margin-top: 80px;
+    padding: 10px;
+    display: inline-block;
+    background: #08064d;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: OktaNeue,sans-serif;
+  }
+  .card-button2 {
+    margin-top: 80px;
+    padding: 20px;
+    display: inline-block;
+    background: #08064d;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: OktaNeue,sans-serif;
+  }
+  .card-button1:hover, .card-button2:hover, .card-button:hover {
+    background: #09002f; /* Change the background color on hover */
+    color: white;
+    -webkit-box-shadow: 0px 0px 100px 0px rgb(36, 63, 181);
+    -moz-box-shadow: 0px 0px 100px 0px rgb(45, 58, 205);
+    box-shadow: 0px 0px 100px 0px rgb(11, 20, 71);
+    transition: .8s ease;
+  }
+  #gs{
+    padding: 100px 0; 
+    text-align: center;
+    position: relative;
+    top: -4230px;
+    left: -127px;
+  }
+  .gsc {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin-top to control the vertical position */
+  }
+  
+  .gsb {
+    display: inline-block;
+    background: #6495ED;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .gsb:hover {
+    background: #4a90e2;
+    color: white;
+    -webkit-box-shadow: 0px 0px 100px 0px rgb(30, 38, 70);
+    -moz-box-shadow: 0px 0px 100px 0px rgb(3, 10, 84);
+    box-shadow: 0px 0px 100px 0px rgb(140, 146, 180);
+    transition: .8s ease;
+  }
+}
+@media (max-width: 480px) {
+  body {
+      font-size: 12px; 
+  }
+  nav {
+      padding: 3px;
+  }
+  .submenu {
+      left: 0; 
+  }
 }
