@@ -50,3 +50,15 @@ document.querySelector('.r-item a').addEventListener('click', (event) => {
   const resource = document.querySelector('#resources');
   resource.scrollIntoView({ behavior: 'smooth' });
 });
+document.querySelector('.about-item a').addEventListener('click', (event) => {
+  event.preventDefault();
+  const resource = document.querySelector('#about-us');
+  resource.scrollIntoView({ behavior: 'smooth' });
+});
+document.querySelector('.l-item a').addEventListener('click', (event) => {
+  event.preventDefault();
+  const resource = document.querySelector('#l-us');
+  resource.scrollIntoView({ behavior: 'smooth' });
+});
+
+
