@@ -406,14 +406,17 @@ li {
   padding: 15px 30px;
   border-radius: 25px;
   text-decoration: none;
+  border:2px solid #050336;
 }
 
 .gsb:hover {
-  background: #4a90e2;
-  color: white;
+  background:rgb(13, 122, 155);
+  color:white;
+  border:2px solid #fbfbfb;
+
   -webkit-box-shadow: 0px 0px 100px 0px rgb(30, 38, 70);
   -moz-box-shadow: 0px 0px 100px 0px rgb(3, 10, 84);
-  box-shadow: 0px 0px 100px 0px rgb(140, 146, 180);
+  box-shadow: 0px 0px 100px 0px rgb(87, 190, 234);
   transition: .8s ease;
 }#resources {
   padding: 100px 0;
