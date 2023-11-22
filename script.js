@@ -60,5 +60,10 @@ document.querySelector('.l-item a').addEventListener('click', (event) => {
   const resource = document.querySelector('#l-us');
   resource.scrollIntoView({ behavior: 'smooth' });
 });
+document.querySelector('.l-item a').addEventListener('click', (event) => {
+  event.preventDefault();
+  const resource = document.querySelector('#leaderboard');
+  resource.scrollIntoView({ behavior: 'smooth' });
+});
 
 

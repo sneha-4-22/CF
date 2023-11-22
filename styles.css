@@ -504,6 +504,14 @@ li {
   box-shadow: 0px 0px 100px 0px rgb(11, 20, 71);
   transition: .8s ease;
 }
+#img {
+  position: absolute;
+  top: 2500px; 
+  width: 1000px; 
+  margin-left:  17%;
+  margin-right: 20%;
+  height: auto;
+}
 #about-us {
   background-color: #050336; 
   padding: 30px; 
